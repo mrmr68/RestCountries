@@ -1,0 +1,51 @@
+.columCard {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.intersection {
+  height: 375px;
+}
+.cardCountry {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.cardCountry .imgContainer {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+.cardCountry .imgContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+.cardCountry .cardCountryName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 10px 0;
+}
+@media only screen and (max-width: 1000px) {
+  .detail_country h1 {
+    line-height: 100px;
+  }
+  .intersection {
+    height: 479px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cardCountry {
+    width: 100%;
+  }
+  .cardCountry img {
+    height: 300px;
+  }
+  .intersection {
+    height: 567px;
+  }
+}
